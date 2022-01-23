@@ -4,3 +4,8 @@ $ dig WWW.cryptoworkers.ga +nostats +nocomments +nocmd
     > WWW.cryptoworkers.ga.              3592    IN      CNAME   cryptoworkers.github.io.
     > cryptoworkers.github.io.      43192   IN      CNAME    GITHUB-PAGES-SERVER .
     >  GITHUB-PAGES-SERVER .         22      IN      A       192.0.2.1
+$ dig cryptoworkers.ga +noall +answer -t A
+> cryptoworkers.ga     3600    IN A     185.199.108.153
+> cryptoworkers.ga     3600    IN A     185.199.109.153
+> cryptoworkers.ga     3600    IN A     185.199.110.153
+> cryptoworkers.ga     3600    IN A     185.199.111.153
